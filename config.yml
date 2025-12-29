@@ -1,0 +1,53 @@
+# Required dataset columns
+required_cols:
+  - school_id
+  - school_year
+  - standardized_school_name
+  - original_school_name
+  - year_school_opened
+  - is_elementary_school
+  - is_middle_school
+  - is_high_school
+  - is_other_school
+  - admission_type
+  - governance
+  - serves_grade_k
+  - serves_grade_1
+  - serves_grade_2
+  - serves_grade_3
+  - serves_grade_4
+  - serves_grade_5
+  - serves_grade_6
+  - serves_grade_7
+  - serves_grade_8
+  - serves_grade_9
+  - serves_grade_10
+  - serves_grade_11
+  - serves_grade_12
+
+# Column used to identify the dataset's school year
+# All values in this column must be identical
+school_year_col: school_year
+
+# Directory where validated datasets will be saved
+data_valid_dir: data_valid
+
+# Columns to convert to boolean after validation (input values are 0/1)
+bool_cols:
+  - is_elementary_school
+  - is_middle_school
+  - is_high_school
+  - is_other_school
+  - serves_grade_k
+  - serves_grade_1
+  - serves_grade_2
+  - serves_grade_3
+  - serves_grade_4
+  - serves_grade_5
+  - serves_grade_6
+  - serves_grade_7
+  - serves_grade_8
+  - serves_grade_9
+  - serves_grade_10
+  - serves_grade_11
+  - serves_grade_12
