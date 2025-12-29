@@ -39,11 +39,7 @@ Install dependencies
 uv sync
 ```
 
-Although the project uses `uv` for dependency management and syncing via pyproject.toml, a `requirements.txt` file is also included for convenience if you prefer using pip:
-
-```terminal
-pip install -r requirements.txt
-```
+Although the project uses `uv` for dependency management and pyproject.toml for configuration, a `requirements.txt` file is also included for convenience if you prefer using pip.
 
 Start the Streamlit app:
 
