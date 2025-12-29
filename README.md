@@ -21,7 +21,7 @@ A simple Streamlit app showcasing how to validate CSV datasets with custom data 
 
 ## Data Source
 
-The data used in this post comes from the [School District of Philadelphia](https://www.philasd.org/research/#opendata) and was lightly cleaned as part of another project. 
+This project uses data from the [School District of Philadelphia](https://www.philasd.org/research/#opendata) and was lightly cleaned as part of another project.
 
 ## How to use
 
